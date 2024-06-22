@@ -158,9 +158,9 @@ yarn add axios
 
 Import and use the axios library to make API requests to the OpenWeatherMap API:
 
- ```javascript
-   import axios from 'axios';
-   import { openWeatherMapApiKey } from './config';
+```javascript
+import axios from 'axios';
+import {openWeatherMapApiKey} from './config';
 ```
 
 ## Author
@@ -175,17 +175,21 @@ Please contact me if you have any questions about the project or me.
 
 ### Smartphone App
 
-**Google Maps Screen**
+**Map App**
 
 <img height="400" src="/Screenshot/SmapsScreen.png">
 
-**Marker Mode**
+**Marker Creator**
 
 <img height="400" src="/Screenshot/SmarkerMode.png">
 
-**Polygon Mode**
+**Polygon Creator**
 
 <img height="400" src="/Screenshot/SpolygonMode.png">
+
+**Weather Data**
+
+<img height="400" src="/Screenshot/weatherData.png">
 
 **Settings Screen**
 
@@ -193,18 +197,22 @@ Please contact me if you have any questions about the project or me.
 
 ### Tablet App
 
-**Google Maps Screen**
+**Map App**
 
 <img height="400" src="/Screenshot/mapsScreen.png">
 
-**Marker Mode**
+**Marker Creator**
 
 <img height="400" src="/Screenshot/markerMode.png">
 
-**Polygon Mode**
+**Polygon Creator**
 
 <img height="400" src="/Screenshot/polygonMode.png">
 
 **Settings Screen**
 
 <img height="400" src="/Screenshot/settingsScreen.png">
+
+**Weather Data**
+
+<img height="400" src="/Screenshot/tabletWeatherData.png">
