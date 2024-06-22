@@ -65,20 +65,20 @@ Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _roo
 
 ```bash
 # using npm
-npm run android
+npx react-native run-android
 
 # OR using Yarn
-yarn android
+yarn react-native android
 ```
 
 #### For iOS
 
 ```bash
 # using npm
-npm run ios
+npx react-native run-ios
 
 # OR using Yarn
-yarn ios
+yarn react-native ios
 ```
 
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
@@ -187,13 +187,10 @@ Please contact me if you have any questions about the project or me.
 
 <img height="400" src="/Screenshot/SpolygonMode.png">
 
-**Weather Data**
-
-<img height="400" src="/Screenshot/weatherData.png">
-
 **Settings Screen**
 
 <img height="400" src="/Screenshot/SsettingsScreen.png">
+
 
 ### Tablet App
 
@@ -212,7 +209,3 @@ Please contact me if you have any questions about the project or me.
 **Settings Screen**
 
 <img height="400" src="/Screenshot/settingsScreen.png">
-
-**Weather Data**
-
-<img height="400" width="600" src="/Screenshot/tabletWeatherData.png">
