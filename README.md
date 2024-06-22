@@ -153,5 +153,5 @@ Please contact me if you have any questions about the project or me.
 
 **Google Maps Screen**
 
-<img height="400" src="/React-Native-Map-App/Screenshot/SmapsScreen.PNG">
+<img height="400" src="/React-Native-Map-App/Screenshot/SmapsScreen.png">
 
