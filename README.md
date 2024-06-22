@@ -161,6 +161,7 @@ Import and use the axios library to make API requests to the OpenWeatherMap API:
  ```javascript
    import axios from 'axios';
    import { openWeatherMapApiKey } from './config';
+```
 
 ## Author
 
