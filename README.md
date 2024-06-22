@@ -4,7 +4,29 @@
 
 This document outlines the detailed specifications for building an interactive map application using React Native that allows users to place markers and polygons on a map. The application displays weather data fetched from a free weather API.
 
-## Getting Started - Installation Instructions
+## Features
+## Interactive Map
+Integration with a map provider to display the map. 
+Users can place markers on the map by tapping on the desired location. 
+Users can draw polygons on the map by tapping on multiple points to create vertices.
+
+## Weather Data
+Integration with OpenWeatherMap API to fetch and display current weather data.
+Fetches and displays weather data based on the selected marker or polygon location on the map, showing temperature, weather description, and location name.
+
+## Mock Data
+Use of static data for initial map markers and polygons.
+
+## User Interface
+Users can switch between "Marker Mode" and "Polygon Mode" using buttons.
+A button to navigate to the Settings screen.
+Displays fetched weather data in an overlay at the bottom of the screen when a location is selected.
+
+## Responsiveness
+The application is designed to be responsive and works well on different screen sizes, including smartphones and tablets.
+
+
+## Installation
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
@@ -58,3 +80,52 @@ Now that you have successfully run the app, let's modify it.
 2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+
+## API Usage Details
+## Google Maps API
+This project uses the Google Maps API to display the map and provide interactive features such as placing markers and drawing polygons.
+
+### API Key
+
+Obtain an API key from the Google Cloud Console.
+Enable the necessary APIs for your project, such as the Maps SDK for Android, Maps SDK for iOS, and Places API.
+
+### Environment Setup
+
+Add your Google Maps API key to your project by including it in your --------------------.
+
+### Installation
+
+```bash
+# using npm
+npm install react-native-maps
+
+# OR using Yarn
+yarn add react-native-maps
+```
+
+### Usage
+Import and use the MapView, Marker, and Polygon components from react-native-maps.
+
+
+## OpenWeatherMap API
+This project integrates with the OpenWeatherMap API to fetch and display current weather data based on the user's location or selected coordinates on the map.
+
+### API Key
+Obtain an API key from the OpenWeatherMap website.
+
+### Environment Setup:
+
+Add your OpenWeatherMap API key to your project by including it in your configuration file --------------.
+
+### Installation
+
+```bash
+# using npm
+npm install axios
+
+# OR using Yarn
+yarn add axios
+```
+### Usage
+Import and use the axios library to make API requests to the OpenWeatherMap API. ---------------
