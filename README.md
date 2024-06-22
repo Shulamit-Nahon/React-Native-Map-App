@@ -159,6 +159,38 @@ Please contact me if you have any questions about the project or me.
 
 ## Screenshots
 
+### Smartphone App
+
 **Google Maps Screen**
 
+<img height="400" src="/Screenshot/SmapsScreen.png">
+
+**Marker Mode**
+
+<img height="400" src="/Screenshot/SmarkerMode.png">
+
+**Polygon Mode**
+
+<img height="400" src="/Screenshot/SpolygonMode.png">
+
+**Settings Screen**
+
+<img height="400" src="/Screenshot/SsettingsScreen.png">
+
+### Tablet App
+
+**Google Maps Screen**
+
+<img height="400" src="/Screenshot/mapsScreen.png">
+
+**Marker Mode**
+
+<img height="400" src="/Screenshot/markerMode.png">
+
+**Polygon Mode**
+
 <img height="400" src="/Screenshot/polygonMode.png">
+
+**Settings Screen**
+
+<img height="400" src="/Screenshot/settingsScreen.png">
