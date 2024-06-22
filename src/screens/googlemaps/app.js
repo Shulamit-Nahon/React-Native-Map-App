@@ -6,7 +6,6 @@ import {useNavigation, useFocusEffect} from '@react-navigation/native';
 
 import {apiKey} from './config';
 
-// Define Mock Data - markers and polygons
 const mockMarkers = [
   {coordinate: {latitude: 32.076626, longitude: 34.80533}, key: 0},
   {coordinate: {latitude: 32.077626, longitude: 34.80633}, key: 1},
@@ -29,11 +28,11 @@ const mockPolygons = [
 const {width, height} = Dimensions.get('window');
 
 const MinimalMap = () => {
-  const [markers, setMarkers] = useState([]); // Array of markers
-  const [polygons, setPolygons] = useState([]); // Array of polygons
-  const [currentPolygon, setCurrentPolygon] = useState([]); // Points of the current polygon
-  const [mode, setMode] = useState('marker'); // 'marker' or 'polygon'
-  const [weather, setWeather] = useState(null); // Weather data
+  const [markers, setMarkers] = useState([]); 
+  const [polygons, setPolygons] = useState([]);
+  const [currentPolygon, setCurrentPolygon] = useState([]); 
+  const [mode, setMode] = useState('marker'); 
+  const [weather, setWeather] = useState(null); 
 
   const navigation = useNavigation(); // Navigation hook
 
