@@ -215,4 +215,4 @@ Please contact me if you have any questions about the project or me.
 
 **Weather Data**
 
-<img height="400" src="/Screenshot/tabletWeatherData.png">
+<img height="400" width="600" src="/Screenshot/tabletWeatherData.png">
