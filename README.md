@@ -107,7 +107,16 @@ Enable the necessary APIs for your project, such as the Maps SDK for Android, Ma
 
 ### Environment Setup
 
-Add your Google Maps API key to your project by including it in your --------------------.
+Add your API key to your manifest file (`android/app/src/main/AndroidManifest.xml`):
+
+```xml
+<application>
+   <!-- You will only need to add this meta-data tag, but make sure it's a child of application -->
+   <meta-data
+     android:name="com.google.android.geo.API_KEY"
+     android:value="Your Google maps API Key Here"/>
+</application>
+```
 
 ### Installation
 
@@ -133,7 +142,7 @@ Obtain an API key from the OpenWeatherMap website.
 
 ### Environment Setup:
 
-Add your OpenWeatherMap API key to your project by including it in your configuration file --------------.
+Add your OpenWeatherMap API key to your project by including it in your configuration file(`src/screens/googlemaps/config.js`):
 
 ### Installation
 
@@ -147,7 +156,11 @@ yarn add axios
 
 ### Usage
 
-Import and use the axios library to make API requests to the OpenWeatherMap API. ---------------
+Import and use the axios library to make API requests to the OpenWeatherMap API:
+
+ ```javascript
+   import axios from 'axios';
+   import { openWeatherMapApiKey } from './config';
 
 ## Author
 
